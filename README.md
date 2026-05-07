@@ -1,20 +1,25 @@
 🚀 Cypress API Test - QAzando
+
 Projeto de automação de testes de API utilizando Cypress, com foco na validação dos principais métodos HTTP e tratamento de erros.
 
 📌 Objetivo
+
 Este projeto foi desenvolvido com o objetivo de praticar testes automatizados de APIs REST utilizando Cypress.
 
 Foram realizados testes dos métodos:
+
 ✅ GET
 ✅ POST
 ✅ PUT
 ✅ DELETE
 
 Além disso, também foram testados cenários de erro da API:
+
 ❌ Erro 404 no DELETE ao tentar deletar um ID inexistente
 ❌ Erro 400 no POST ao enviar um body inexistente
 
 🛠️ Tecnologias utilizadas:
+
 Cypress
 JavaScript
 Node.js
@@ -46,9 +51,10 @@ Os payloads utilizados nos testes foram armazenados na pasta fixtures, utilizand
 - Facilidade de manutenção
 
 🔧 Custom Commands
+
 O projeto utiliza Custom Commands do Cypress no arquivo commands.js, permitindo reutilização de código e deixando os testes mais limpos e organizados.
 
-📚 Conceitos praticados
+📚 Conceitos praticados:
 
 Durante o desenvolvimento deste projeto foram praticados conceitos como:
 -Automação de testes de API

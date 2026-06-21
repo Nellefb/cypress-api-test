@@ -92,20 +92,35 @@ Durante o desenvolvimento deste projeto foram praticados:
 
 ## 📥 Instalação e execução
 
-1. Clone o repositório
-- git clone <URL_DO_SEU_REPOSITORIO>
+### 1. Clone o repositório
 
-2. Acesse a pasta do projeto
-- cd nome-do-projeto
+```bash
+git clone <URL_DO_SEU_REPOSITORIO>
+```
 
-4. Instale as dependências
-- npm install
+### 2. Acesse a pasta do projeto
 
-6. Abra o Cypress
-- npx cypress open
+```bash
+cd nome-do-projeto
+```
 
-8. Execute os testes em modo headless (opcional)
-- npx cypress run
+### 3. Instale as dependências
+
+```bash
+npm install
+```
+
+### 4. Abra o Cypress
+
+```bash
+npx cypress open
+```
+
+### 5. Execute os testes em modo headless (opcional)
+
+```bash
+npx cypress run
+```
 
 ## 🎯 Observação
 

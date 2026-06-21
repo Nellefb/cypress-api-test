@@ -90,23 +90,23 @@ Durante o desenvolvimento deste projeto foram praticados:
 
 ---
 
-📥 Instalação e execução
+## 📥 Instalação e execução
 
 1. Clone o repositório
-git clone <URL_DO_SEU_REPOSITORIO>
+- git clone <URL_DO_SEU_REPOSITORIO>
 
 2. Acesse a pasta do projeto
-cd nome-do-projeto
+- cd nome-do-projeto
 
 4. Instale as dependências
-npm install
+- npm install
 
 6. Abra o Cypress
-npx cypress open
+- npx cypress open
 
 8. Execute os testes em modo headless (opcional)
-npx cypress run
+- npx cypress run
 
-🎯 Observação
+## 🎯 Observação
 
 Este projeto tem fins educacionais e foi desenvolvido para prática de automação de testes de API com Cypress.

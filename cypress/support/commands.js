@@ -10,7 +10,7 @@
 //
 //
 // -- This is a parent command --
-Cypress.Commands.add('buscarDeviceEspecífico', (device_id) => {
+Cypress.Commands.add('buscarDeviceEspecifico', (device_id) => {
     cy.request({
         method: 'GET',
         url: `/objects/${device_id}`,

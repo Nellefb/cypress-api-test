@@ -18,27 +18,38 @@ Foram validados os principais métodos HTTP:
 Também foram testados cenários negativos da API:
 
 ❌ Erro 404 ao tentar deletar um ID inexistente
+
 ❌ Erro 400 ao enviar um body inexistente no POST
+
 🛠️ Tecnologias utilizadas
+
 Cypress
+
 Node.js
+
 JavaScript
+
 ⚙️ Funcionalidades testadas
+
 ✅ GET
 Consulta de dados na API
 Validação de status code
 Validação do response body
+
 ✅ POST
 Criação de registros
 Validação da resposta da API
 Testes de erro (400) com body inexistente
+
 ✅ PUT
 Atualização de registros existentes
 Validação dos dados atualizados
+
 ✅ DELETE
 Remoção de registros
 Validação de exclusão
 Teste de erro (404) ao deletar ID inexistente
+
 📦 Fixtures
 
 Os payloads utilizados nos testes foram organizados na pasta fixtures em arquivos JSON, permitindo:
